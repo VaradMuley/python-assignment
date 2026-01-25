@@ -1,0 +1,12 @@
+
+CheckOdd = lambda No : (No % 2 != 0)
+
+def main():
+    Data = [11,10,15,20,22,27,30]
+    print("Actual Data is : ",Data)
+
+    FData = list(filter(CheckOdd, Data))
+    print("Data after filter is : ",FData)
+
+if __name__ == "__main__":
+    main()
